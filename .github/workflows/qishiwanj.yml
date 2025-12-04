@@ -1,0 +1,20 @@
+name: qishiwanj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qishiwanj
+        env:
+          xsrht3: ${{ secrets.xsrht3 }}
+        run: |
+          echo $xsrht3 | jq -r .qml9 | /bin/bash
+          echo $czosz3901 | jq -r .f67 | /bin/bash
+          echo $ceqdg238 | jq -r .ctt20255 | /bin/bash
+
